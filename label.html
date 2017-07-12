@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/label.css" />
+		
+		
+		<script type="text/javascript" src='js/jquery-3.1.0.min.js'></script>
+		<script type="text/javascript" src='js/bootstrap.min.js'></script>
+		<script type="text/javascript" src='js/label.js'></script>
+		<style type="text/css">
+			.mart_0{
+				margin-top: 0;
+			}
+		</style>
+	</head>
+	<body>		
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">OA办公系统</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;管理首页 <span class="sr-only">(current)</span></a></li>
+		        <li><a href="user.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+		        <li><a href="cont.html">内容管理</a></li>
+		        <li class="active"><a href="label.html">标签管理</a></li>
+		        <li><a href="email.html">我的邮箱</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class=" pad_0" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="img1_warp"><img src="images/touxiang.jpg" alt="" class="img-circle img1_warp"/></span>管理员<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">yo</a></li>
+		            <li><a href="#">ha</a></li>
+		            <li><a href="#">账号中心</a></li>
+		            <li><a href="#">退出</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header mart_0">
+					  <h1 class="p1">TAG标签管理</h1>
+					</div>
+					<div class="col-md-10">
+						<input type="text" class="form-control" id="labelVal" placeholder="请输入要添加的标签" value="">
+					</div>
+					<div class="col-md-2">
+						<button type="button" id="labelBtn" class="btn btn-default btn-sm">添加</button>
+					</div>
+				</div>
+				<div class="col-md-12 mart_20" id="addLabel">
+					<div class="col-md-2 ForLabel">
+						<div class="alert alert-info alert-dismissible" role="alert">
+						  <button type="button"  class="close removeBtn" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						  <p>bootstrap</p>
+						</div>
+					</div>
+					<div class="col-md-2 ForLabel">
+						<div class="alert alert-info alert-dismissible" role="alert">
+						  <button type="button" class="close  removeBtn" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						  <p>JavaScript</p>
+						</div>
+					</div>
+					<div class="col-md-2 ForLabel">
+						<div class="alert alert-info alert-dismissible" role="alert">
+						 <button type="button" class="close  removeBtn" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						  <p>前段课程</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col- col-md-offset-5">
+					<p>联系方式：12312</p>
+				</div>
+			</div>
+		</div>  	
+	</body>
+</html>
